@@ -57,7 +57,7 @@ public class StudentMgtFrame extends JFrame {
 		createStudentDialog = new CreateStudentFrame(buttonHandler);
 		editStudentDialog = new EditStudentDialog(buttonHandler);
 		
-		// Studnet table Setting
+		// Student table Setting
 		JScrollPane scrollPane = new JScrollPane();
 		this.studentTable = new StudentTable();
 		scrollPane.setViewportView(this.studentTable);

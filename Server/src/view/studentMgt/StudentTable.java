@@ -41,14 +41,14 @@ public class StudentTable extends JTable {
 	}
 
 	public void updateTableContents(Vector<MStudent> mStudents) {
-
+		this.mStudents = mStudents;
 		this.tableModel.setRowCount(0);
 //		this.tableModel = new DefaultTableModel(header, 0);
 		
 		
 		if(mStudents != null) {
 
-			for(MStudent mStudent : mStudents) {
+			for(MStudent mStudent : this.mStudents) {
 				Vector<String> row = new Vector<>();
 				
 				row.add(mStudent.getStuNum().toString());

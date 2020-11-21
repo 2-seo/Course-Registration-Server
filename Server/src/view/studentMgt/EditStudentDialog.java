@@ -127,12 +127,11 @@ public class EditStudentDialog extends JDialog {
 		
 		String message = "학생 정보를 수정하시겠습니까?";
 		String title = "알림";
-		int reply = JOptionPane.showConfirmDialog(null, message, title, JOptionPane.YES_NO_OPTION);
+		int reply = JOptionPane.showConfirmDialog(this, message, title, JOptionPane.YES_NO_OPTION);
 		if (reply == JOptionPane.YES_OPTION) {
 		    
 		    CStudent cStudent = new CStudent();
-		    cStudent.updateStudent(this.stuNum, strStudentName, strPassword, this.majorId, strAddress);
-		    JOptionPane.showMessageDialog(this, "학생 정보를 업데이트했습니다.");		    
+		    cStudent.updateStudent(this.stuNum, strStudentName, strPassword, this.majorId, strAddress);		       
 			MessageFrame.showMessage("알림", "학생 정보를 업데이트했습니다.", MessageFrame.INFO_MESSAGE);
 		    this.dispose();
 		} else {

@@ -62,10 +62,12 @@ public class MessageFrame extends JFrame {
 		
 	}
 	
-	public static void showMessage(String title, String message, int icon_type) {				
+	public static int showMessage(String title, String message, int icon_type) {				
 		
 		MessageFrame messageFrame = new MessageFrame(title, message, icon_type);
-		messageFrame.setVisible(true);				
+		messageFrame.setVisible(true);
+		
+		return -1;
 		
 	}
 	
