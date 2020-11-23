@@ -52,8 +52,8 @@ public class MLecture {
 
 	@Override
 	public String toString() {
-		return id + " " + name + " " + lecturer + " " + credit + " "
-				+ time + " " + majorId;
+		return "***forsplitdata***" + id + "***forsplitdata***" + name + "***forsplitdata***" + lecturer + "***forsplitdata***" + credit + "***forsplitdata***"
+				+ time + "***forsplitdata***" + majorId;
 	}
 	
 	

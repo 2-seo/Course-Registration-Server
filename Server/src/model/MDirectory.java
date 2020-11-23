@@ -29,9 +29,13 @@ public class MDirectory {
     	return fileName;
     }
 
+//	@Override
+//	public String toString() {
+//		return id + " " + name + " " + fileName;
+//	}
 	@Override
 	public String toString() {
-		return id + " " + name + " " + fileName;
+		return "***forsplitdata***" + id + "***forsplitdata***" + name + "***forsplitdata***" + fileName;
 	}
     
     

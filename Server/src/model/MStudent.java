@@ -45,7 +45,7 @@ public class MStudent {
 
 	@Override
 	public String toString() {
-		String data = stuNum + " " + name + " " + password + " " + majorId + " " + major + " " + address + " " + hint;		
+		String data = "***forsplitdata***" + stuNum + "***forsplitdata***" + name + "***forsplitdata***" + password + "***forsplitdata***" + majorId + "***forsplitdata***" + major + "***forsplitdata***" + address + "***forsplitdata***" + hint;		
 		return data;
 	}
 	

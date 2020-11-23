@@ -207,7 +207,7 @@ public class DataServer {
 									result = "getGangjwas";
 									String allData = "";
 									for(MLecture mGamgjwa : mLectures) {
-										allData += mGamgjwa.toString() + "\n";
+										allData += mGamgjwa.toString();
 									}
 									send(result + " " + allData);
 								}
@@ -221,7 +221,7 @@ public class DataServer {
 									result = "getResult";
 									String allData = "";
 									for(MLecture mGamgjwa : mLectures) {
-										allData += mGamgjwa.toString() + "\n";
+										allData += mGamgjwa.toString();
 									}
 									send(result + " " + allData);
 								} else {
