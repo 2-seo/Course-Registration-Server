@@ -32,7 +32,7 @@ public class ManagerMgtFrame extends JFrame {
 	public ManagerMgtFrame() {
 		
 		this.setTitle("MJU Manager");
-		this.setSize(600, 470);
+		this.setSize(600, 500);
 		this.setLocationRelativeTo(null);		
 		this.setResizable(false);
 		this.setLayout(null);

@@ -89,7 +89,7 @@ public class EditLectureDialog extends JFrame {
 		btnOk = new JButton("수정");
 		btnCancle = new JButton("취소");
 		btnOk.setActionCommand("updateLecture");
-		btnCancle.setActionCommand("closeAddLectureDialog");
+		btnCancle.setActionCommand("closeEditLectureDialog");
 		this.buttonHandler = buttonHandler;
 		btnOk.addActionListener(this.buttonHandler);
 		btnCancle.addActionListener(this.buttonHandler);

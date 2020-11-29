@@ -41,6 +41,7 @@ public class WriteNoticeDialog extends JDialog {
 		
 		this.pContainer = new JPanel();
 		this.pContainer.setSize(600, 500);
+		this.setTitle("공지사항 작성");
 		this.pContainer.setLayout(new BorderLayout(10, 10));
 		this.setLocationRelativeTo(null);
 		this.setResizable(false);

@@ -170,6 +170,10 @@ public class LectureFrame extends JFrame {
 		this.editLectureDialog.setVisible(true);
 	}
 	
+	private void closeEditLectureDialog() {
+		editLectureDialog.closeForm();
+	}
+	
 	private void closeAddLectureDialog() {
 		this.addLectureDialog.closeForm();
 	}
@@ -219,6 +223,9 @@ public class LectureFrame extends JFrame {
 			
 			} else if(action == "updateLecture") {
 				updateLecture();
+				
+			} else if(action.equals("closeEditLectureDialog")) {
+				closeEditLectureDialog();
 				
 			} else if(action == "removeLecture") {				
 				removeLecture();
