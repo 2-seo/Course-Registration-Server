@@ -2,7 +2,9 @@
 
 # Course-Registration-Server
 ##  개요
-명지대학교 2020년 2학기 **객체지향적 사고와 프로그래밍** 수업의 기말 프로젝트로 제출한 프로젝트입니다.
+- 명지대학교 2020년 2학기 **객체지향적 사고와 프로그래밍** 수업의 기말 프로젝트로 제출한 프로젝트입니다.
+- 현재 Repository는 `Server` Repo입니다. `Client` Repo는 아래 주소에서 확인하실 수 있습니다.
+- <https://github.com/Harry-Bro/Course-Registration-Client>
 
 1. 주요 기능
 	* 수강신청 프로젝트로 *관리자로부터 발급 받은 아이디* 를 통해 강좌를 **장바구니**에 담거나 **수강신청**을 할 수 있습니다.
